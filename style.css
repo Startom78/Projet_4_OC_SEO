@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #FFF;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,11 +150,11 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: yellow;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255)
 }
 
 .d-bloc .btn-wire,
@@ -290,11 +290,14 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-brand {
+    
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 15px; 
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -302,9 +305,9 @@ a:hover {
 }
 
 .navbar-brand img {
+    display: inline;
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
 }
 
 .navbar-brand img[src$=svg] {
@@ -771,15 +774,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ff5100;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ff5100;
     color: #FFFFFF!important;
 }
 
