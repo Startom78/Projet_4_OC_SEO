@@ -639,7 +639,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -701,7 +701,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: black!important;
 }
 
 .med-width-whitespace {
@@ -741,7 +741,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #556b2F;
     padding: 40px 40px 40px 40px;
 }
 
@@ -811,6 +811,22 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.text-center {
+    font-size: 16px;
+}
+
+.text-center-2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.text-center-3 {
+    font-size: 20px;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
