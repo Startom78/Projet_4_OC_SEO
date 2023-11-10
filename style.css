@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .bloc-lg {
@@ -136,6 +137,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: yellow;
+   
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -435,6 +437,8 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+    
+    
 }
 
 .btn.pull-right {
@@ -461,6 +465,12 @@ button {
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-md {
@@ -496,7 +506,13 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
 
 .scrollToTop {
     width: 40px;
@@ -517,6 +533,13 @@ button {
     font-size: 14px;
     opacity: 1;
 }
+.stylizing-label {
+    font-weight: bold;
+}
+.class-justify-center {
+    display: flex;
+    justify-content: center;
+}
 
 a[data-lightbox] {
     position: relative;
@@ -530,7 +553,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: -17px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -538,6 +561,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -642,9 +666,7 @@ a {
     color: black;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -680,7 +702,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -724,16 +746,21 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
+}
+
+.black {
+    color: black;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+
 }
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
+    
 }
 
 .avatar {
@@ -760,6 +787,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #ff5100;
+    
 }
 
 .tc-white {
@@ -767,14 +795,17 @@ h4 {
 }
 
 .btn-atomic-tangerine {
+    
     background: #ff5100;
-    color: #FFFFFF!important;
+    color: black;
+
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -815,6 +846,8 @@ h4 {
 
 .text-center {
     font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .text-center-2 {
@@ -862,6 +895,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+
 }
 
 @media (max-width: 991px) {
@@ -1030,17 +1064,30 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+
+    a[data-lightbox] {
+        
+        margin: auto;
+        max-width: 270px;
+
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
