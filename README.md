@@ -11,7 +11,7 @@ Pour afficher le projet avant optimisation :
 ### étape 3 : installer l'extension "Live Server" via l'onglet "extensions"
 ### étape 4 : cliquer sur "Go live" en bas à droite de l'IDE
 
-Si vous souhaitez voir les fichiers optimisés, cliquez sur "branch" puis sur "website-optimized", puis réalisez les mêmes étapes 
+Si vous souhaitez voir les fichiers optimisés, cliquez sur la branche "main" puis sur "website-optimized", puis réalisez les mêmes étapes 
 
 Bonne navigation !
 
