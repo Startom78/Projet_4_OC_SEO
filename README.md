@@ -12,3 +12,7 @@ Pour afficher le projet avant optimisation :
 ### étape 4 : cliquer sur "Go live" en bas à droite de l'IDE
 
 Si vous souhaitez voir les fichiers optimisés, cliquez sur "branch" puis sur "website-optimized", puis réalisez les mêmes étapes 
+
+Bonne navigation !
+
+Thomas
